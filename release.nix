@@ -243,5 +243,7 @@ in
     grpc                       =       pkgs.grpc;
 
     overlay                    = overlay;
+    
+    awakePkgs                  = pkgs;
     inherit (pkgs) test-grpc-haskell;
   }
